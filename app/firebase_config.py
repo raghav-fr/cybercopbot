@@ -11,7 +11,7 @@ try:
         'storageBucket': 'cybercopai.firebasestorage.app'  # e.g. 'myproject.appspot.com'
     })
 except ValueError:
-    # already initialized
+    # already initialize
     pass
 
 db = firestore.client()

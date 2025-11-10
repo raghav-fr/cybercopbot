@@ -1,4 +1,3 @@
-# app/email_fallback.py
 import os
 from email.message import EmailMessage
 import smtplib

@@ -3,7 +3,7 @@ import pytesseract
 import os
 
 # Ensure tesseract is installed on host system and accessible
-# On Ubuntu: sudo apt install -y tesseract-ocr
+# On Ubuntu: sudo apt install -y tesseract-ocr 
 
 def ocr_image_file(path: str) -> str:
     try:

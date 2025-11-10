@@ -1,7 +1,7 @@
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 import io
-
+#
 
 def generate_pdf_report(report_dict: dict) -> bytes:
     buffer = io.BytesIO()

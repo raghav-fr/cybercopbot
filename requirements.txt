@@ -9,3 +9,4 @@ google-generativeai
 pywhatkit
 opencv-python
 pytesseract
+

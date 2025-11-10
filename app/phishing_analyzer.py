@@ -8,7 +8,7 @@ def analyze_link(user_input: str) -> str:
         return "⚠️ Please send a valid link (starting with http or https)."
 
     url = urls[0]
-    # Heuristic risk signals
+    # Heuristic risk signal
     risk_flags = []
     if re.search(r'\d+\.\d+\.\d+\.\d+', url):  # IP-based URL
         risk_flags.append("Uses direct IP address")

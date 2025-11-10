@@ -47,7 +47,7 @@ def submit_to_portal(report_json: Dict[str, Any], pdf_bytes: Optional[bytes] = N
     if PORTAL_API_KEY:
         headers["Authorization"] = f"Bearer {PORTAL_API_KEY}"
 
-    # If portal accepts multipart/form-data with file:
+    # If portal accepts multipart/form-data with file
     files = {
         "data": ("report.json", json.dumps(report_json), "application/json")
     }

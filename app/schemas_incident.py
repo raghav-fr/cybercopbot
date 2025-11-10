@@ -22,3 +22,4 @@ INCIDENT_SCHEMA = {
         {"key": "fraudster_account", "label": "Fraudster account details (if any)", "type": "string", "auto_fill": True, "required": False}
     ]
 }
+#

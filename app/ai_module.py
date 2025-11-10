@@ -4,7 +4,6 @@ import os
 # Configure API key
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-# Initialize model
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 def extract_incident_details(text: str):
