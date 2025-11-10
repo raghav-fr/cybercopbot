@@ -73,7 +73,7 @@ venv\Scripts\activate
 
 ### 3️⃣ Install Dependencies
 ```bash
-pip install -r app/requirements.txt
+pip install -r requirements.txt
 ```
 
 ---
@@ -156,7 +156,7 @@ uvicorn app.main:app --reload --port 8000
 ## 🧠 AI Modules
 
 ### `extract_incident_details(text)`
-Uses Gemini 1.5 Flash to extract structured JSON fields from user text.
+Uses Gemini 2.5 Flash to extract structured JSON fields from user text.
 
 ### `generate_guidance(topic)`
 Generates detailed, step-by-step victim support guidance.
@@ -186,7 +186,7 @@ Bot: ✅ All details received! Submitting your report...
 | Component | Technology |
 |------------|-------------|
 | Backend | FastAPI |
-| AI | Google Gemini 1.5 Flash |
+| AI | Google Gemini 2.5 Flash |
 | Database | Firebase Firestore |
 | Messaging | WhatsApp Cloud API |
 | Hosting (local) | ngrok / DevTunnel |
